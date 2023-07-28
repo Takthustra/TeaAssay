@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+@font-face{
+	font-family: "acgyosyo";
+	src: url(../font/acgyosyo.ttf);
+}
+
+body{
+	width: 1000px;
+	margin: auto;
+	font-family: ＭＳ Ｐ明朝;
+/*	background-color: whitesmoke	;*/
+	background-image: url(../photo/washi.jpg);
+
+}
+header{
+	background-color: darkolivegreen;
+	margin: 0 0 10px 0px;
+	padding: 3px;
+	}
+h1{
+	font-family: "acgyosyo";
+	margin:10px;
+}
+#contents{
+	display: flex;
+	margin:5px 5px 5px 5px;
+}
+aside{
+	width: 175px;
+	background-color:lightgrey;
+	text-align: center;
+	
+}
+h2{
+	background-color: darkolivegreen;
+	margin:0px 0 5px 0;
+	font-size: 125%;
+	padding: 0.2rem;
+}
+
+
+
+.top_main{
+/*	background-image: url(washi.jpg);*/
+	background-color: whitesmoke	;
+	width: 100%;
+	margin-left: 10px;
+	background-color:lightgrey;
+}
+
+.top_photo{
+	margin: 5px 5px 5px 5px;
+}
+
+.famous_quote{
+	width: 100%;
+	margin: auto;
+/*	margin-top: auto;*/
+/*	margin-bottom: auto;*/
+	margin-left: 10px;
+	margin-right: 10px;
+
+	
+	
+}
+
+
+.h3_top{
+	text-align: left;
+}
+
+.h3_bottom{
+	text-align: right;
+}
+
+
+section.footer{
+	margin: 5px 0 0 0;
+	text-align: center;
+	color:antiquewhite;
+}

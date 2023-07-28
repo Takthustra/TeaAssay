@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+@font-face{
+	font-family: "acgyosyo";
+	src: url(../font/acgyosyo.ttf);
+}
+
+body{
+	width: 1000px;
+	margin: auto;
+	font-family:ＭＳ Ｐ明朝;
+	background-image: url(../photo/washi.jpg);
+
+}
+header{
+	background-color: darkolivegreen;
+	margin: 0 0 10px 0px;
+	padding: 3px;
+	}
+h1{
+	font-family: "acgyosyo";
+	margin:10px;
+}
+
+section{
+	margin: 1em 1em 1em 0;
+	padding: 1px 10px 1px 8px;
+
+}
+
+#intro_jpg{
+	width:150px;
+	height: 150px;
+	border-radius: 20%;
+	background-image: url(../photo/intro.jpg);
+}
+
+h2{
+	
+    font-size: 14pt;
+	border-bottom: solid 3px black;
+	width:300px;
+}
+
+
+
+main{
+	background-color: whitesmoke	;
+	width: 100%;
+
+}
+
+
+footer{
+	margin: 5px 0 0 0;
+	text-align: center;
+}
