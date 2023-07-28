@@ -8,8 +8,8 @@ import java.sql.SQLException;
 
 public class AccessCountDAO {
 	private final String JDBC_URL = "jdbc:mariadb://localhost:3306/mydb";
-	private final String DB_USER = "root";
-	private final String DB_PASS = "password";
+	private final String DB_USER = "***";
+	private final String DB_PASS = "***";
 
 	public boolean insertTimelyLog() {
 		/*
